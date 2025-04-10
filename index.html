@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ved Prakash's Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Ved Prakash's Portfolio</h1>
+    <nav>
+        <ul class="nav-links">
+          <li><a href="#social-links" class="link__text"><span>Home</span></a></li>
+          <li><a href="#hero" class="link__text"><span>About</span></a></li>
+          <li><a href="#projects" class="link__text"><span>Projects</span></a></li>
+          <li><a href="#Certificates" class="link__text"><span>Certificates</span></a></li>
+          <li><a href="#" class="link__text"><span>Contact</span></a></li>
+        </ul>
+      </nav>
+      
+      <ul id="social-links"class="social-links">
+        <li>
+          <a href="https://github.com/VED-PRAKA5H" target="_blank" class="social-link">
+            <img src="images/github-logo.png" alt="GitHub Logo" class="social-logo">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/vedprakash23/" target="_blank" class="social-link">
+            <img src="images/linkedin-logo.png" alt="LinkedIn Logo" class="social-logo">
+          </a>
+        </li>
+        <li>
+          <a href="mailto:vedbhu.2018@gmail.com" class="social-link">
+            <img src="images/email-icon.png" alt="Email Icon" class="social-logo">
+          </a>
+        </li>
+      </ul>
+      
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="#hero">
+      <div class="hero-text">
+        <h1>Hi! I'm Ved Prakash</h1>
+        <p>A highly motivated and analytical mathematics Master's student at NIT Silchar,
+            I possess a strong foundation in mathematical principles and a keen interest in their practical applications. 
+            My academic pursuits have cultivated a rigorous problem-solving approach and a deep understanding of complex systems. 
+            I am eager to transition my skills into a career as a <strong style="color: #6a5acd;">Data Scientist/ Machine Learning Engineer</strong>, 
+            where I can leverage my mathematical expertise to develop innovative solutions and drive data-driven insights.</p>
+        <a href="#explore">Take a look!</a>
+      </div>
+      <div class="hero-image">
+        <img src="./images/hero.jpg" alt="Ved's portrait" />
+      </div>
+    </section>
+
+    <section id="explore" class="explore">
+      <h2>Explore my site</h2>
+      <div class="card-container">
+        <article class="card" style="background-image: url('./images/Projects.jpg');" onclick="location.href='#projects'">
+          <h3>Projects</h3>
+        </article>        
+        <article class="card" style="background-image: url('./images/aboutme.png');">
+          <h3>About Me</h3><br>
+        </article>
+        <a href="https://drive.google.com/uc?export=download&id=1QrWLo74HpDA9SsJAG2RT4oz6UpCUD-H2 " class="card-link">
+          <article class="card" style="background-image: url('./images/download.png');">
+            <h3>Download CV</h3>
+          </article>
+        </a>        
+        </article>
+        <article class="card" style="background-image: url('./images/email.png');">
+          <h3>Contact</h3>
+        </article>
+      </div>
+    </section>
+
+
+<!-- Section Divider -->
+<div class="wave-svg-divider">
+  <svg viewBox="0 0 1440 150" preserveAspectRatio="none">
+    <path fill="#954eeb" d="M0,80 C360,160 1080,0 1440,80 L1440,150 L0,150 Z"></path>
+  </svg>
+</div>
+<!------------------------------- projects ----------------------------------------->
+<section id="projects" class="projects-section">
+  <h2>My Projects</h2>
+
+  <div class="project">
+    <div class="project-img">
+      <img src="./images/student.png" alt="Project 1 Screenshot">
+    </div>
+    <div class="project-details">
+      <div class="project-title">
+        <h3>Student Performance Predictor</h3>
+        <a href="https://github.com/VED-PRAKA5H/student-performance-predictor.git" target="_blank" class="social-link" aria-label="View on GitHub">
+          <img src="images/github-logo.png" alt="GitHub Logo" class="social-logo">
+        </a>
+      </div>
+      <p>This project predicts students' math scores using demographic and academic factors such as gender, race or ethnicity, parental level of education, lunch type, test preparation course completion, and scores in writing and reading (both out of 100). By applying machine learning techniques, 
+        the model aims to identify patterns and provide insights that contribute to understanding and improving students' academic performance.</p>
+      <p><strong>Tools:</strong> Python, Streamlit, Numpy, Pandas, Scikit-learn</p>
+    </div>
+  </div>
+
+  <div class="project reverse">
+    <div class="project-img">
+      <img src="./images/movie.png" alt="Project 2 Screenshot">
+    </div>
+    <div class="project-details">
+      <div class="project-title">
+        <h3>Movie Recommender System</h3>
+        <a href="https://github.com/VED-PRAKA5H/movie-recommender.git" target="_blank" class="social-link" aria-label="View on GitHub">
+          <img src="images/github-logo.png" alt="GitHub Logo" class="social-logo">
+        </a>
+      </div>
+      <p>The Movie Recommender System is a machine learning project that provides personalized movie recommendations based on user
+         preferences and historical data. This project utilizes collaborative filtering and content-based filtering techniques 
+         to suggest movies that users are likely to enjoy. 
+        By implementing this system, I aimed to enhance user experience and engagement in movie selection.</p>
+      <p><strong>Tools:</strong> Python, Scikit-learn, Streamlit</p>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-img">
+      <img src="./images/calory.png" alt="Project 1 Screenshot">
+    </div>
+  <div class="project-details">
+    <div class="project-title">
+      <h3>Calories Burn Prediction</h3>
+      <a href="https://github.com/VED-PRAKA5H/Calories-Burnt-Prediction.git" target="_blank" class="social-link" aria-label="View on GitHub">
+        <img src="images/github-logo.png" alt="GitHub Logo" class="social-logo">
+      </a>
+    </div>
+      <p>This project aims to predict the number of calories burned based on various factors such as Gender, Age, Weight, Height, Workout Duration, Heart Rate 
+        and Body Temperature. By leveraging machine learning techniques, it seeks to provide accurate and insightful calorie estimations,
+          which can help users in managing fitness and health goals effectively.</p>
+      <p><strong>Tools:</strong> Python, Numpy, Pandas, Scikit-learn</p>
+    </div>
+  </div>
+
+  <!-- <div class="project reverse">
+    <div class="project-img">
+      <img src="./images/student.png" alt="Project 2 Screenshot">
+    </div>
+    <div class="project-details">
+      <div class="project-title">
+        <h3>Student Performance Predictor</h3>
+        <a href="https://github.com/VED-PRAKA5H" target="_blank" class="social-link" aria-label="View on GitHub">
+          <img src="images/github-logo.png" alt="GitHub Logo" class="social-logo">
+        </a>
+      </div>
+      <p>The Movie Recommender System is a machine learning project that provides personalized movie recommendations based on user
+         preferences and historical data. This project utilizes collaborative filtering and content-based filtering techniques 
+         to suggest movies that users are likely to enjoy. 
+        By implementing this system, I aimed to enhance user experience and engagement in movie selection.</p>
+      <p><strong>Tools:</strong> Python, Scikit-learn, Streamlit</p>
+    </div>
+  </div> -->
+  <!-- <hr class="section-divider"> -->
+   
+</section>
+<!-- Section Divider -->
+<div class="wave-svg-divider">
+  <svg viewBox="0 0 1440 150" preserveAspectRatio="none">
+    <path fill="#954eeb" d="M0,80 C360,160 1080,0 1440,80 L1440,150 L0,150 Z"></path>
+  </svg>
+</div>
+
+
+
+<!------------------------------------------ Certificates ----------------------->
+<section id="Certificates" class="projects-section">
+  <h2>My Certificates</h2>
+
+  <div class="project">
+    <div class="project-img">
+      <img src="./images/ML.png" alt="Machine Learning Certificate">
+    </div>
+    <div class="project-details">
+      <div class="project-title">
+      <h3>Machine Learning </h3>
+      <a href="https://coursera.org/verify/specialization/IYE027AY5IDM" target="_blank" class="social-link" aria-label="View on GitHub">
+        <img src="images/link.png" alt="GitHub Logo" class="social-logo">
+      </a>
+    </div>
+      <p>Successfully earned after completing the three-course Machine Learning Specialization on Coursera, taught by Andrew Ng. The courses included:  
+        <ol>
+          <li><strong>Supervised Machine Learning (Regression and Classification)</strong>: Covering foundational algorithms for regression and classification tasks.</li>
+          <li><strong>Advanced Learning Algorithms</strong>: Exploring neural networks, ensemble methods, and deeper machine learning techniques.</li>
+          <li><strong>Unsupervised Learning, Recommenders, Reinforcement Learning</strong>: Delving into clustering, recommendation systems, and reinforcement learning concepts.</li>
+        </ol>
+      </p>
+    </div>
+  </div>
+
+
+  <div class="project reverse">
+    <div class="project-img">
+      <img src="./images/NLP.png" alt="Project 2 Screenshot">
+    </div>
+    <div class="project-details">
+      <div class="project-title">
+      <h3>Natural Language Processing with Classification and Vector Spaces </h3>
+      <a href="https://coursera.org/verify/BMF86UV77MH0" target="_blank" class="social-link" aria-label="View on GitHub">
+        <img src="images/link.png" alt="GitHub Logo" class="social-logo">
+      </a>
+    </div>
+      <p>Successfully earned through Coursera, this course dives deep into the fundamentals of natural language processing (NLP). 
+        It covers essential topics such as text classification, feature extraction with vector spaces, and practical techniques for analyzing and processing textual data. 
+        Through hands-on projects, learners gain valuable skills to apply NLP methods in real-world scenarios using innovative tools and approaches.</p>
+      <p><strong>Tools:</strong> Python, Scikit-learn, Streamlit</p>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-img">
+      <img src="./images/SQL.png" alt="Project 1 Screenshot">
+    </div>
+    <div class="project-details">
+      <div class="project-title">
+      <h3>Databases and SQL for Data Science with Python </h3>
+      <a href="https://coursera.org/verify/NUPQFDB88THF" target="_blank" class="social-link" aria-label="View on GitHub">
+        <img src="images/link.png" alt="GitHub Logo" class="social-logo">
+      </a>
+    </div>
+      <p>Earned upon completing the Coursera course, this program focuses on foundational skills in databases and SQL, essential for data science. 
+        It covers key topics such as creating and managing databases, querying data using SQL, and integrating Python for advanced data analysis.
+         The course emphasizes practical, hands-on experience, enabling learners to handle real-world data problems effectively.</p>
+    </div>
+  </div>
+
+  <div class="project reverse">
+    <div class="project-img">
+      <img src="https://th.bing.com/th/id/OIP.E5mSqC49v9xOkjgXwmx_JQHaHa?rs=1&pid=ImgDetMain" alt="Project 2 Screenshot">
+    </div>
+    <div class="project-details">
+      <h3>100 Days of Code
+        </h3>
+      <p>The Complete Python Pro Bootcamp.</p>
+      <p><strong>Tools:</strong> Python, Tkinter, GitHub, etc.</p>
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+  <footer>
+    <p>© 2025 Ved Prakash. All rights reserved.</p>
+  </footer>
+</body>
+</html>
